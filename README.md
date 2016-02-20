@@ -12,11 +12,11 @@ All fonts encode a 700 x 700  rectangle that, after evaluating all operators,
 corresponds to the following charstring:
 
 ```
-0 0 rmoveto
-0 700 rlineto
-700 0 rlineto
-0 -700 rlineto
--700 0 rlineto
+   0    0  rmoveto
+   0  700  rlineto
+ 700    0  rlineto
+   0 -700  rlineto
+-700    0  rlineto
 ```
 
 If, after rendering, the glyph does not
