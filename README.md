@@ -22,3 +22,5 @@ others) that, after evaluating all operators, corresponds to the following chars
 If, after interpreting, the glyph does not match a 700x700 font unit rectangle 
 starting at (0,0) and traced clockwise, whatever did the decoding does not
 properly support the relevant CFF opcodes.
+
+**Note** these fonts assume the `subr` and `gsubr` opcodes are already supported.
