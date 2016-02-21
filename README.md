@@ -8,8 +8,8 @@ Currently all these fonts are "good" fonts, i.e. no intentionally bad charstring
 have been included. This may change in the future, although if you want to submit
 your own fonts in a PR, please note whether it's a good or a bad font.
 
-All fonts encode a 700 x 700  rectangle that, after evaluating all operators, 
-corresponds to the following charstring:
+All fonts encode a 700 x 700  rectangle for the letter `"a"` (as well as several
+others) that, after evaluating all operators, corresponds to the following charstring:
 
 ```
    0    0  rmoveto
