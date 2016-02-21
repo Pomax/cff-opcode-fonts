@@ -19,14 +19,6 @@ corresponds to the following charstring:
 -700    0  rlineto
 ```
 
-If, after rendering, the glyph does not
-match a rectangle with the following font unit coordinates, whatever did the
-decoding does not properly support the relevant CFF opcodes.
-
-```
-p0 = (0,0)
-p1 = (0,700)
-p2 = (700,700)
-p3 = (700,0)
-p4 = (0,0)
-```
+If, after rendering, the glyph does not match a 700x700 font unit rectangle 
+starting at (0,0) and traced clockwise, , whatever did the decoding does not
+properly support the relevant CFF opcodes.
