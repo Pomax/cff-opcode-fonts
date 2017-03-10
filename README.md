@@ -25,10 +25,10 @@ properly support the relevant CFF opcodes.
 
 **Note:** these fonts assume the `subr` and `gsubr` opcodes are already supported.
 
-### tools used
+## Tools used
 
 I use https://github.com/pomax/simple-CFF-builder for building these fonts, which uses http://pomax.github.io/node-type2-charstring/ (the library, not the site) to specifically convert type2 instructions into CFF charstring bytes.
 
-### LICENSE
+## License information
 
 There is no code in this repo, and so there is no LICENSE file: individual fonts already come with their own license information embedded so that should be good enough. Each font has a `name` table in which the data is explicitly marked as "copyright free", "trademark free" and "license free". These fonts are in the public domain and you can use them however you want.
