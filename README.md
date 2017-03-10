@@ -36,7 +36,8 @@ should be tested based on whether "the next vertex" is within the expected zero 
 font unit deviation.
 
 ```postscript
-  random  700  rmoveto
+       0    0  rmoveto
+  random  700  rlineto
   700  random  rlineto
   random -700  rlineto
  -700  random  rlineto
