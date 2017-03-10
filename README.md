@@ -24,3 +24,7 @@ starting at (0,0) and traced clockwise, whatever did the decoding does not
 properly support the relevant CFF opcodes.
 
 **Note:** these fonts assume the `subr` and `gsubr` opcodes are already supported.
+
+### tools used
+
+I use https://github.com/pomax/simple-CFF-builder for building these fonts, which uses http://pomax.github.io/node-type2-charstring/ (the library, not the site) to specifically convert type2 instructions into CFF charstring bytes.
