@@ -1,6 +1,6 @@
 # CFF opcode test fonts
 
-This repository contains minimal OTF fonts intended for testing CFF opcode support.
+This repository contains minimal OTF fonts intended for testing [CFF](https://www.microsoft.com/typography/otspec180/cffspec.htm) opcode support, using Type2 charstring operators as defined in [Adobe Tech Note 5177](https://www.microsoft.com/typography/otspec160/charstr2.htm).
 
 The naming format is `cff` . `<opcode>` . `(<optional dependencies>)` . `otf`.
 
